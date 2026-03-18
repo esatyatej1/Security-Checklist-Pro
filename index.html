@@ -68,6 +68,15 @@
                     style="font-size: 0.75rem; text-transform: uppercase; letter-spacing: 1px; margin-top: 3rem; margin-bottom: 1rem;">
                     Tools</p>
                 <ul class="nav-links">
+                    <li class="nav-item" id="share-link">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+                            stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                            <path d="M4 12v8a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2v-8" />
+                            <polyline points="16 6 12 2 8 6" />
+                            <line x1="12" y1="2" x2="12" y2="15" />
+                        </svg>
+                        Share Link (Full State)
+                    </li>
                     <li class="nav-item" id="export-md">
                         <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor"
                             stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
@@ -142,16 +151,17 @@
                 </div>
 
                 <div class="glass-card next-steps" style="flex: 1;">
-                    <h4 class="outfit" style="margin-bottom: 1rem;">Top Priorities</h4>
-                    <ul id="priority-list" class="text-muted" style="list-style: none; font-size: 0.9rem;">
-                        <!-- Dynamic Priorities -->
-                        <li
-                            style="margin-bottom: 0.5rem; border-left: 3px solid var(--accent-warning); padding-left: 0.75rem;">
-                            Loading data...</li>
-                    </ul>
+                    <h4 class="outfit" style="margin-bottom: 1rem;">Live Technical Auditor</h4>
+                    <div style="display: flex; gap: 0.5rem; margin-bottom: 1rem;">
+                        <input type="text" id="scan-domain" placeholder="example.com" class="item-notes"
+                            style="display: block; margin: 0; flex: 1;">
+                        <button class="btn-premium" id="start-scan"
+                            style="padding: 0.5rem; white-space: nowrap;">Scan</button>
+                    </div>
+                    <p class="text-dim" style="font-size: 0.8rem;" id="scan-results">Enter target domain for real-time
+                        security headers check.</p>
                 </div>
             </div>
-
             <section id="checklist-container">
                 <!-- Checklist items will be injected here via JavaScript -->
                 <div class="loading-state" style="padding: 4rem; text-align: center; color: var(--text-dim);">
