@@ -1,0 +1,65 @@
+{
+  "cis": {
+    "title": "CIS Benchmark (v8.0)",
+    "categories": [
+      {
+        "id": "cis-1",
+        "name": "Inventory & Control of Enterprise Assets",
+        "items": [
+          { "id": "cis-1.1", "label": "Establish and Maintain Inventory", "desc": "Keep a list of all devices on the network." },
+          { "id": "cis-1.2", "label": "Identify and Address Unauthorized Assets", "desc": "Scan for unauthorized devices and disconnect them." }
+        ]
+      },
+      {
+        "id": "cis-2",
+        "name": "Data Protection",
+        "items": [
+          { "id": "cis-2.1", "label": "Establish and Maintain a Data Inventory", "desc": "Know where sensitive data is stored." },
+          { "id": "cis-2.2", "label": "Configure Data Access Control Lists", "desc": "Restrict data access to only those who need it." }
+        ]
+      }
+    ]
+  },
+  "nist": {
+    "title": "NIST Cybersecurity Framework (CSF 2.0)",
+    "categories": [
+      {
+        "id": "nist-id",
+        "name": "Identify (ID.AM)",
+        "items": [
+          { "id": "nist-id-1", "label": "Asset Management", "desc": "Data, personnel, devices, systems, and facilities are identified and managed." },
+          { "id": "nist-id-6", "label": "Governance", "desc": "Policies and procedures are established and communicated." }
+        ]
+      },
+      {
+        "id": "nist-pr",
+        "name": "Protect (PR.AC)",
+        "items": [
+          { "id": "nist-pr-1", "label": "Access Control", "desc": "Access to assets and facilities is limited to authorized users." },
+          { "id": "nist-pr-6", "label": "Protective Technology", "desc": "Technical security solutions are managed to ensure security." }
+        ]
+      }
+    ]
+  },
+  "iso": {
+    "title": "ISO/IEC 27001:2022",
+    "categories": [
+      {
+        "id": "iso-a5",
+        "name": "Organizational Controls (A.5)",
+        "items": [
+          { "id": "iso-a5.1", "label": "Policies for Information Security", "desc": "Define and approve security policies." },
+          { "id": "iso-a5.15", "label": "Access Control", "desc": "Grant access based on business and security needs." }
+        ]
+      },
+      {
+        "id": "iso-a8",
+        "name": "Technological Controls (A.8)",
+        "items": [
+          { "id": "iso-a8.1", "label": "User Endpoint Devices", "desc": "Enforce security controls on laptops and mobiles." },
+          { "id": "iso-a8.24", "label": "Use of Privileged Utility Programs", "desc": "Limit access to programs that can override security controls." }
+        ]
+      }
+    ]
+  }
+}

@@ -1,0 +1,21 @@
+{
+    "name": "Security-Checklist-Pro",
+    "short_name": "ShieldPro",
+    "description": "Interactive Security Compliance Tracker",
+    "start_url": "./index.html",
+    "display": "standalone",
+    "background_color": "#05070a",
+    "theme_color": "#00ffc3",
+    "icons": [
+        {
+            "src": "https://via.placeholder.com/192/05070a/00ffc3?text=🛡️",
+            "sizes": "192x192",
+            "type": "image/png"
+        },
+        {
+            "src": "https://via.placeholder.com/512/05070a/00ffc3?text=🛡️",
+            "sizes": "512x512",
+            "type": "image/png"
+        }
+    ]
+}
